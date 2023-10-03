@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/img_iconperson" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginRight="100dp"
+            android:text="@string/hintname" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/phone"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:layout_marginRight="100dp"
+            android:inputType="phone"
+            android:text="@string/hintphone"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/address"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/hintaddress"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/submit"
+            app:cornerRadius="50dp" />
+    </TableRow>
+</TableLayout>

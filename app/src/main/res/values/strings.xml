@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Coklat</string>
+    <string name="tv1">Alif nur rachman</string>
+    <string name="nim">20210140029</string>
+    <string name="btnsubmit">Scan Qr Code</string>
+    <string name="strbck">Starbucks Chocolate</string>
+    <string name="dlcs">Delicious chocolate drink is here, get now!</string>
+    <string name="getnow">Order Now!</string>
+    <string name="mtr">Select your drink!</string>
+    <string name="name">Name :</string>
+    <string name="phone">Phone :</string>
+    <string name="address">Address:</string>
+    <string name="hintname">Enter your name</string>
+    <string name="hintphone">Enter your phone number</string>
+    <string name="hintaddress">Enter your address</string>
+    <string name="submit">Submit</string>
+    <string name="btn1">Button 1</string>
+    <string name="btn2">Button 2</string>
+    <string name="mtchprnt">Match parent</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+</resources>
